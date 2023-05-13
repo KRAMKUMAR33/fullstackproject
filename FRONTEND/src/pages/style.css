@@ -1,0 +1,312 @@
+#head{
+    text-align: center;
+    font-family: serif;
+    font-size: 140px;
+    font-weight: bold;
+    color: transparent;
+     -webkit-text-stroke: 1px white; 
+    background-image: linear-gradient(rgb(109, 109, 113),black);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -1300px 0;
+    animation: backcolor 5s linear infinite alternate;
+    
+}
+
+@media only screen and (max-width:1000px){
+    #head{
+        font-size: 100px;
+    }
+
+}
+@media only screen and (max-width:800px){
+    #head{
+        font-size: 60px;
+    };
+
+}
+
+.Bpp{  
+
+/* background-image: url(../assets/bcim2.jpg); */
+   
+background-size: cover;
+top: 0;
+
+  height: 100vh;
+  width: 100%;
+
+position: absolute;
+z-index: -1;
+object-fit: cover;
+display: flex;
+justify-content: center;
+flex-direction: column  ;
+
+
+}
+
+@keyframes backcolor {
+   100%{
+  background-position: 0 0;
+    }
+
+}
+
+/*=======================logo end===================*/
+
+
+
+
+
+
+/*----------------------------------------login form start--------------------------------*/
+
+.logreg-box .form-box{
+
+    display: flex;
+   justify-content: end;
+    align-items: center;
+    background: transparent;
+    margin-top: 50px;
+    flex-wrap: wrap;
+   
+}
+
+
+.form-box .input-box{
+    position: relative;
+    width: 340px;
+    height: 70px;
+
+    border-bottom: 2px solid white;
+    
+    margin: 30px 0;
+
+}
+
+.input-box input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: larger;
+    color: white;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+   
+     font-size: 16px;
+     font-weight: 500;
+    pointer-events: none;
+    transition: .5s ease;
+    color: white;
+}
+
+
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -7px;  }
+
+
+.input-box .icon{
+    position: absolute;
+    right: 0;
+    top: 35px;
+}
+
+form h2{
+    text-align: center;
+    padding-right: 40px;
+    color: rgb(223, 218, 218);
+}
+
+#sds{
+    width: 100px;
+    font-size: large;
+  
+
+}
+
+#dfg{
+    text-align: center;
+}
+
+
+
+
+
+#plm{
+    background: transparent;
+    backdrop-filter:blur(10px) ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    animation: calls 2s ease-in-out;
+}
+
+
+@keyframes calls {
+
+    0%{
+        transform: translateX(150%);
+        opacity: 0;
+    }
+    
+}
+
+
+@media only screen and (max-width:540px) {
+
+    #plm{
+
+        box-shadow:none;
+        backdrop-filter:none ;
+      
+    }
+   #sec{
+    font-size: 16px;
+    margin-right: 10px;
+   }
+
+    
+}
+
+/*----------------------------------------login form end--------------------------------*/
+
+/*--------------------------nav start--------------------*/
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(3, 22, 32, 0.814);
+    padding: 1rem;
+    overflow: hidden;
+    margin: 3px;
+    animation:float 2s ease-in-out;
+    position: absolute;
+    top: 0;
+    width: 99.8%;
+}
+@keyframes float {
+     0%{
+        transform: translateY(-220%);
+     }  
+}
+
+nav .first{
+    color: white;
+    font-size: larger;
+    margin-right: 1rem;
+}
+
+nav .first:hover{
+    border-bottom: 2px solid white;
+}
+/* =========over */
+
+
+.message{
+    color: tomato;
+    font-weight: 600;
+    padding:  1rem 1rem 1rem 0;
+    text-align: center;
+}
+.message1{
+    color: red;
+    font-weight: 600;
+    padding-left: 2rem;
+    text-align: center;
+    font-size: x-large;
+}
+.messages{
+    color: red;
+    font-weight: 600;
+    padding:  1rem 1rem 1rem 0;
+    text-align: center;
+}
+.messagess{
+    color: red;
+    font-weight: 600;
+    padding:  1rem 1rem 1rem 6rem;
+    text-align: center;
+}
+
+
+#homelogin{
+    color: white;
+    font-size: 20px;
+    background-color: #3B71CA;
+    padding: 7px 20px 8px 20px;
+    border-radius: 5px;
+}
+
+#homelogin:hover{
+    background-color: #14A44D;
+}
+.x1{
+    text-align: center;
+}
+
+#loghome{
+    color: white;
+    font-size: 20px;
+    background-color: #3B71CA;
+    padding: 7px 20px 8px 20px;
+    border-radius: 5px;
+    
+}
+#loghome:hover{
+    background-color: #DC4C64;
+}
+
+.x2{
+    margin: 15px 0 0 15px;
+}
+
+.x3{
+    margin-top: 6rem;
+}
+
+.x4{
+    overflow: hidden;
+}
+
+
+.forms{
+    width: 60vh;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 2rem;
+    margin: auto;
+ 
+}
+
+.forms label{
+    color: white;
+    font-size: small;
+}
+
+.forms input{
+    outline: none;
+    background: transparent;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:800px){
+.forms{
+    backdrop-filter: none;
+    box-shadow: none;
+}
+}
+
+pre {
+    line-height: normal;
+    margin: 0;
+  }
+  
