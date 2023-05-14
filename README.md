@@ -21,5 +21,6 @@ requirements tools to run this project
 
 ================================>
 start backend server type nodemon in CMD path of BACKEND
+(*)
 start frontend server type npm start path of FRONTEND
 
