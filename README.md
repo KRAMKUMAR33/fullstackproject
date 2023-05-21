@@ -20,7 +20,7 @@ requirements tools to run this project
 4.) install node module path=>(fullstackproject/frontend) VS CODE OR CMD =>( npm i)
 
 ================================>
-start backend server type nodemon in CMD path of BACKEND
+start backend server type npm start in CMD path of BACKEND
 (*)
 start frontend server type npm start path of FRONTEND
 
